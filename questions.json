@@ -1,0 +1,172 @@
+[
+  {
+  "question": "Was ist zu beachten, wenn man betrieblich einen Sniffer einsetzt?",
+  "type": "mc",
+  "multipleCorrect": true,
+  "options": [
+    "Der Vorgesetzte ist zu informieren.",
+    "Der Einsatz eines Sniffers ist grundsätzlich verboten.",
+    "Der Einsatz eines Sniffers ist grundsätzlich erlaubt.",
+    "Der Abteilungsleiter muss beim Sniffen anwesend sein."
+  ],
+  "answer":
+    "Der Vorgesetzte ist zu informieren.",
+    "explanation": "Beim Einsatz von Sniffern müssen organisatorische und rechtliche Stellen informiert werden, insbesondere der Vorgesetzte und der Betriebsrat, da Netzwerkverkehr überwacht wird."
+   },
+  {
+    "question": "Zu welcher Schicht des OSI-Modells wird ein Hub gerechnet?",
+    "type": "mc",
+    "options": ["Schicht 1", "Schicht 2", "Schicht 3", "Schicht 4"],
+    "answer": "Schicht 1",
+    "explanation": "Hub arbeitet auf der physikalischen Schicht und verteilt Signale ungefiltert."
+  },
+  {
+    "question": "Wo wird CSMA/CD eingesetzt?",
+    "type": "mc",
+    "options": [
+      "In verkabelten Netzwerken",
+      "Im WLAN",
+      "In VPNs",
+      "In Switches"
+    ],
+    "answer": "In verkabelten Netzwerken",
+    "explanation": "CSMA/CD wird in Ethernet-Kabelnetzen zur Kollisionserkennung genutzt."
+  },
+  {
+    "question": "Wo wird CSMA/CA eingesetzt?",
+    "type": "mc",
+    "options": [
+      "In verkabelten Netzwerken",
+      "Im WLAN",
+      "In Glasfasernetzen",
+      "In Routern"
+    ],
+    "answer": "Im WLAN",
+    "explanation": "CSMA/CA wird in Funknetzen verwendet, um Kollisionen zu vermeiden."
+  },
+  {
+    "question": "Welche besondere Adresse trägt die Netzwerkkarte?",
+    "type": "mc",
+    "options": [
+      "IP-Adresse",
+      "MAC-Adresse",
+      "DNS-Adresse",
+      "Gateway-Adresse"
+    ],
+    "answer": "MAC-Adresse",
+    "explanation": "MAC ist die eindeutige Hardwareadresse einer Netzwerkkarte."
+  },
+  {
+    "question": "Was macht eine Netzwerkkarte mit einem nicht für sie bestimmten Datenpaket?",
+    "type": "mc",
+    "options": [
+      "Speichert es",
+      "Schickt es zurück",
+      "Verwirft es",
+      "Analysiert es"
+    ],
+    "answer": "Verwirft es",
+    "explanation": "Nicht adressierte Frames werden ignoriert."
+  },
+  {
+    "question": "Zu welcher Schicht des OSI-Modells wird ein simpler un-managed Switch gerechnet?",
+    "type": "mc",
+    "options": ["Schicht 1", "Schicht 2", "Schicht 3", "Schicht 4"],
+    "answer": "Schicht 2",
+    "explanation": "Switch arbeitet auf MAC-Ebene (Sicherungsschicht)."
+  },
+  {
+    "question": "Welche Bedeutung hat die Zieladresse FF:FF:FF:FF:FF:FF?",
+    "type": "mc",
+    "options": ["Unicast", "Broadcast", "Multicast", "Loopback"],
+    "answer": "Broadcast",
+    "explanation": "Broadcast bedeutet: alle Geräte im Netzwerk empfangen das Paket."
+  },
+  {
+  "question": "Was ist zu beachten, wenn man betrieblich einen Sniffer einsetzt?",
+  "type": "mc",
+  "options": [
+    "Es muss eine schriftliche Einwilligung bei den Mitarbeitern eingeholt werden.",
+    "Der Einsatz eines Sniffers ist grundsätzlich verboten.",
+    "Der Einsatz eines Sniffers ist grundsätzlich erlaubt.",
+    "Der Betriebsrat, wenn vorhanden, ist zu informieren.",
+    "Die gesamte Belegschaft ist zu informieren."
+  ],
+  "answer": "Der Betriebsrat, wenn vorhanden, ist zu informieren.",
+  "explanation": "Beim Einsatz eines Sniffers wird Netzwerkverkehr analysiert, was datenschutzrechtlich relevant ist. Deshalb muss insbesondere der Betriebsrat informiert werden. Eine generelle Einwilligung aller Mitarbeiter ist nicht zwingend erforderlich, und der Einsatz ist weder grundsätzlich verboten noch uneingeschränkt erlaubt."
+   },
+  {
+    "question": "Wie reagiert ein Switch auf die Zieladresse FF:FF:FF:FF:FF:FF im Ethernet-Frame?",
+    "type": "mc",
+    "options": [
+      "Er verwirft den Frame",
+      "Er sendet ihn an alle Ports",
+      "Er sendet ihn nur an einen Port",
+      "Er blockiert ihn"
+    ],
+    "answer": "Er sendet ihn an alle Ports",
+    "explanation": "Broadcast wird an alle Ports weitergeleitet."
+  },
+  {
+    "question": "Wofür wird Port Mirroring eingesetzt?",
+    "type": "mc",
+    "options": [
+      "Verschlüsselung",
+      "Analyse von Netzwerkverkehr",
+      "Beschleunigung des Netzwerks",
+      "Löschen von Daten"
+    ],
+    "answer": "Analyse von Netzwerkverkehr",
+    "explanation": "Port Mirroring kopiert Datenverkehr zur Analyse (z. B. Sniffer)."
+  },
+  {
+    "question": "Was ist zu beachten, wenn passive PoE-Adapter eingesetzt werden und warum?",
+    "type": "mc",
+    "options": [
+      "Keine Einschränkungen",
+      "Datenrate sinkt auf 100 MBit/s",
+      "Erhöhte Sicherheit",
+      "Nur WLAN möglich"
+    ],
+    "answer": "Datenrate sinkt auf 100 MBit/s",
+    "explanation": "Nur 4 Adern bleiben für Daten → Begrenzung auf Fast Ethernet."
+  },
+  {
+    "question": "Wie viele PoE-Geräte können angeschlossen werden (315W / 30W)?",
+    "type": "mc",
+    "options": ["8", "10", "12", "16"],
+    "answer": "10",
+    "explanation": "315 ÷ 30 = 10,5 → 10 Geräte möglich."
+  },
+  {
+    "question": "Was bedeutet Link Aggregation?",
+    "type": "mc",
+    "options": [
+      "Bündelung physischer Ports",
+      "Verschlüsselung",
+      "Routing",
+      "VLAN Trennung"
+    ],
+    "answer": "Bündelung physischer Ports",
+    "explanation": "Mehrere Verbindungen werden logisch zusammengefasst."
+  },
+  {
+    "question": "Was ist ein VLAN-Switch?",
+    "type": "mc",
+    "options": [
+      "WLAN Switch",
+      "Router",
+      "Switch für VLANs",
+      "Firewall"
+    ],
+    "answer": "Switch für VLANs",
+    "explanation": "Ein VLAN-Switch trennt logische Netzwerke innerhalb eines physischen Netzes."
+  },
+  {
+    "question": "Wie viele VLANs sind mit 12 Bit möglich?",
+    "type": "mc",
+    "options": ["1024", "2048", "4096", "8192"],
+    "answer": "4096",
+    "explanation": "2^12 = 4096 mögliche VLANs."
+  }
+]
